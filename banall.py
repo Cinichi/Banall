@@ -1,10 +1,4 @@
 import os
-os.system("pip3 install pyrogram==1.4.16")
-os.system("pip3 install TgCrypto")
-os.system("pip3 install async-lru")
-os.system("pip3 install PySocks")
-os.system("pip3 install pyaes")
-
 import asyncio
 from pyrogram import Client,filters, idle
 from pyrogram.types import *
