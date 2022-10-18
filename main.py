@@ -41,7 +41,7 @@ def banall(bot,message):
             
     logging.info("process completed")
 
-@blaze.on_message(filters.command("alive"))
+@blaze.on_message(filters.command("start"))
 async def alive(bot, message):
     await message.reply("**Am Alive ❣️**\n\n𝙰 𝙶𝚁𝙾𝚄𝙿 𝙳𝙸𝚂𝚃𝚁𝚄𝙲𝚃𝙸𝙾𝙽 𝙱𝙾𝚃 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼 𝙵𝙾𝚁 𝙳𝙸𝚂𝚃𝚁𝙾𝚈𝙸𝙽𝙶 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙲𝙷𝙰𝚃𝚂\n[Source Code🚀](https://github.com/Elric-xD/Banall)")
 
